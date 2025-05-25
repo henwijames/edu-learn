@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Physics - EduLearn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">EduLearn</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#subjects">Subjects</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="module-content">
+        <div class="content-container">
+          <h1>Modern Physics</h1>
+          <p class="module-description">
+            Explore the revolutionary concepts of quantum mechanics, relativity,
+            and modern physics that transformed our understanding of the
+            universe.
+          </p>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-atom"></i> Quantum Mechanics</h2>
+            <div class="content-card">
+              <h3>Wave-Particle Duality</h3>
+              <p>
+                Discover how particles can behave as waves and waves as
+                particles, challenging our classical understanding of physics.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Wave-particle duality</li>
+                  <li>Heisenberg uncertainty principle</li>
+                  <li>Schrödinger equation</li>
+                  <li>Quantum tunneling</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  Calculate the de Broglie wavelength of an electron moving at
+                  1×10⁶ m/s.
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Use λ = h/p = h/mv</li>
+                    <li>λ = (6.63×10⁻³⁴)/(9.11×10⁻³¹ × 1×10⁶)</li>
+                    <li>λ = 7.28×10⁻¹⁰ m</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-clock"></i> Special Relativity</h2>
+            <div class="content-card">
+              <h3>Space and Time</h3>
+              <p>
+                Learn how Einstein's theory of relativity revolutionized our
+                understanding of space, time, and energy.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Time dilation</li>
+                  <li>Length contraction</li>
+                  <li>Mass-energy equivalence</li>
+                  <li>Lorentz transformations</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  A spaceship travels at 0.8c relative to Earth. How much time
+                  passes on Earth when 1 year passes on the ship?
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Use time dilation formula: t = t₀/√(1-v²/c²)</li>
+                    <li>t = 1/√(1-0.8²)</li>
+                    <li>t = 1.67 years</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-radiation"></i> Nuclear Physics</h2>
+            <div class="content-card">
+              <h3>Atomic Nuclei and Radioactivity</h3>
+              <p>
+                Explore the structure of atomic nuclei, radioactive decay, and
+                nuclear reactions.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Nuclear binding energy</li>
+                  <li>Radioactive decay</li>
+                  <li>Nuclear fission and fusion</li>
+                  <li>Half-life calculations</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  A radioactive isotope has a half-life of 5 days. How much of a
+                  100g sample remains after 15 days?
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Number of half-lives = 15/5 = 3</li>
+                    <li>Remaining amount = 100 × (1/2)³</li>
+                    <li>Remaining amount = 12.5g</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-buttons">
+            <a href="physics-electromagnetism.html" class="nav-button"
+              >Previous: Electromagnetism</a
+            >
+            <a href="library.html" class="nav-button">Back to Library</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@edulearn.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

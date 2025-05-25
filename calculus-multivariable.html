@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multivariable Calculus - EduLearn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">EduLearn</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#subjects">Subjects</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="module-content">
+        <div class="content-container">
+          <h1>Multivariable Calculus</h1>
+          <p class="module-description">
+            Extend your calculus knowledge to functions of multiple variables
+            and explore vector calculus concepts.
+          </p>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-calculator"></i> Partial Derivatives</h2>
+            <div class="content-card">
+              <h3>Functions of Multiple Variables</h3>
+              <p>
+                Learn how to differentiate functions with respect to one
+                variable while holding others constant.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Partial derivatives</li>
+                  <li>Higher-order partial derivatives</li>
+                  <li>Chain rule for multivariable functions</li>
+                  <li>Directional derivatives</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>Find ∂f/∂x and ∂f/∂y for f(x,y) = x²y + sin(xy)</p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>∂f/∂x = 2xy + y·cos(xy)</li>
+                    <li>∂f/∂y = x² + x·cos(xy)</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-cube"></i> Multiple Integrals</h2>
+            <div class="content-card">
+              <h3>Integration in Higher Dimensions</h3>
+              <p>
+                Extend integration concepts to functions of multiple variables
+                and learn to calculate volumes and masses.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Double integrals</li>
+                  <li>Triple integrals</li>
+                  <li>Change of variables</li>
+                  <li>Applications in physics</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  Evaluate ∫∫(x + y) dA over the region R: 0 ≤ x ≤ 1, 0 ≤ y ≤ 2
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Set up iterated integral</li>
+                    <li>Integrate with respect to y first</li>
+                    <li>Then integrate with respect to x</li>
+                    <li>Result: 3</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-vector-square"></i> Vector Calculus</h2>
+            <div class="content-card">
+              <h3>Vector Fields and Theorems</h3>
+              <p>
+                Explore vector fields, line integrals, and fundamental theorems
+                of vector calculus.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Vector fields</li>
+                  <li>Line integrals</li>
+                  <li>Surface integrals</li>
+                  <li>Green's Theorem</li>
+                  <li>Stokes' Theorem</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  Calculate the line integral of F = (y, -x) along the unit
+                  circle
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Parameterize the circle</li>
+                    <li>Set up the line integral</li>
+                    <li>Evaluate using trigonometric identities</li>
+                    <li>Result: -2π</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-buttons">
+            <a href="calculus-integral.html" class="nav-button"
+              >Previous: Integral Calculus</a
+            >
+            <a href="library.html" class="nav-button">Back to Library</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@edulearn.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

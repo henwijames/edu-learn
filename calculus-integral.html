@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integral Calculus - EduLearn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">EduLearn</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#subjects">Subjects</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="module-content">
+        <div class="content-container">
+          <h1>Integral Calculus</h1>
+          <p class="module-description">
+            Explore the world of integration, from basic antiderivatives to
+            complex applications in physics and engineering.
+          </p>
+
+          <div class="topic-section">
+            <h2>
+              <i class="fas fa-calculator"></i> Definite and Indefinite
+              Integrals
+            </h2>
+            <div class="content-card">
+              <h3>Understanding Integration</h3>
+              <p>
+                Integration is the reverse process of differentiation. It helps
+                us find areas, volumes, and many other quantities that
+                accumulate over time or space.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Antiderivatives</li>
+                  <li>Definite integrals</li>
+                  <li>Fundamental Theorem of Calculus</li>
+                  <li>Properties of integrals</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>Evaluate ∫(2x + 3)dx</p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Find antiderivative: x² + 3x + C</li>
+                    <li>For definite integral, evaluate at bounds</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-tools"></i> Integration Techniques</h2>
+            <div class="content-card">
+              <h3>Advanced Integration Methods</h3>
+              <p>
+                Learn various techniques to solve complex integrals, from
+                substitution to integration by parts.
+              </p>
+              <div class="key-points">
+                <h4>Key Techniques:</h4>
+                <ul>
+                  <li>U-substitution</li>
+                  <li>Integration by parts</li>
+                  <li>Partial fractions</li>
+                  <li>Trigonometric substitution</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>Evaluate ∫x·e^x dx using integration by parts</p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Let u = x, dv = e^x dx</li>
+                    <li>Find du = dx, v = e^x</li>
+                    <li>Apply formula: uv - ∫v du</li>
+                    <li>Result: x·e^x - e^x + C</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-cube"></i> Applications of Integration</h2>
+            <div class="content-card">
+              <h3>Real-World Applications</h3>
+              <p>
+                Discover how integration is used to solve practical problems in
+                various fields.
+              </p>
+              <div class="key-points">
+                <h4>Applications:</h4>
+                <ul>
+                  <li>Area between curves</li>
+                  <li>Volume of revolution</li>
+                  <li>Work and energy</li>
+                  <li>Center of mass</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  Find the area between y = x² and y = 2x from x = 0 to x = 2
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Set up integral: ∫(2x - x²)dx from 0 to 2</li>
+                    <li>Evaluate: [x² - x³/3] from 0 to 2</li>
+                    <li>Calculate: 4 - 8/3 = 4/3</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-buttons">
+            <a href="calculus-differential.html" class="nav-button"
+              >Previous: Differential Calculus</a
+            >
+            <a href="calculus-multivariable.html" class="nav-button"
+              >Next: Multivariable Calculus</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@edulearn.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

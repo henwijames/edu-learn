@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Differential Calculus - EduLearn</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">EduLearn</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#subjects">Subjects</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="index.html#about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="module-content">
+        <div class="content-container">
+          <h1>Differential Calculus</h1>
+          <p class="module-description">
+            Master the fundamental concepts of differential calculus, from
+            limits to optimization problems.
+          </p>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-calculator"></i> Limits and Continuity</h2>
+            <div class="content-card">
+              <h3>Understanding Limits</h3>
+              <p>
+                A limit describes the value that a function approaches as the
+                input approaches some value. It's the foundation of calculus and
+                helps us understand behavior at points where direct evaluation
+                isn't possible.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>One-sided limits</li>
+                  <li>Infinite limits</li>
+                  <li>Limits at infinity</li>
+                  <li>Squeeze theorem</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  Find the limit of f(x) = (x² - 1)/(x - 1) as x approaches 1
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Factor the numerator: (x - 1)(x + 1)</li>
+                    <li>Simplify: (x - 1)(x + 1)/(x - 1) = x + 1</li>
+                    <li>Take the limit: lim(x→1) (x + 1) = 2</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2>
+              <i class="fas fa-chart-line"></i> Derivatives and Differentiation
+            </h2>
+            <div class="content-card">
+              <h3>Introduction to Derivatives</h3>
+              <p>
+                The derivative represents the rate of change of a function at
+                any point. It's a fundamental tool for understanding how
+                quantities change with respect to each other.
+              </p>
+              <div class="key-points">
+                <h4>Key Concepts:</h4>
+                <ul>
+                  <li>Definition of derivative</li>
+                  <li>Power rule</li>
+                  <li>Product rule</li>
+                  <li>Quotient rule</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>Find the derivative of f(x) = x³ + 2x² - 5x + 3</p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Apply power rule to each term</li>
+                    <li>f'(x) = 3x² + 4x - 5</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="topic-section">
+            <h2><i class="fas fa-cogs"></i> Applications of Derivatives</h2>
+            <div class="content-card">
+              <h3>Real-World Applications</h3>
+              <p>
+                Derivatives have numerous applications in physics, engineering,
+                economics, and other fields. They help us understand rates of
+                change and optimize various processes.
+              </p>
+              <div class="key-points">
+                <h4>Applications:</h4>
+                <ul>
+                  <li>Velocity and acceleration</li>
+                  <li>Related rates problems</li>
+                  <li>Optimization</li>
+                  <li>Curve sketching</li>
+                </ul>
+              </div>
+              <div class="example">
+                <h4>Example:</h4>
+                <p>
+                  A ladder 10 feet long rests against a vertical wall. If the
+                  bottom of the ladder slides away from the wall at a rate of 1
+                  ft/s, how fast is the top of the ladder sliding down the wall
+                  when the bottom is 6 feet from the wall?
+                </p>
+                <div class="solution">
+                  <p>Solution:</p>
+                  <ol>
+                    <li>Use the Pythagorean theorem: x² + y² = 100</li>
+                    <li>Differentiate with respect to time</li>
+                    <li>Solve for dy/dt when x = 6</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-buttons">
+            <a href="library.html" class="nav-button">Back to Library</a>
+            <a href="calculus-integral.html" class="nav-button"
+              >Next: Integral Calculus</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@edulearn.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 EduLearn. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
